@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae accusamus ab incidunt, dolorum sequi aut laboriosam quia similique dolorem possimus? Harum placeat dignissimos, rerum molestias ex cum. Dolor, iusto enim.</h2>
+   
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    <div id="contenido">
+
+    </div>
+    <script>
+        document.write('A buscar')
+        document.getElementById("contenido").innerHTML= "<div id='rojo'><img src='https://cdn-icons-png.flaticon.com/512/1088/1088537.png'></div>"
+        document.getElementById('rojo').innerHTML += '<br>Otro texto'
+        window.alert(document.getElementById('rojo'))
+        console.info(document.getElementById('rojo'));
+        console.warn(document.getElementById('rojo'));
+        console.table(document.getElementById('rojo'))
+        console.error(document.getElementById('rojo'));
+    </script>
+</body>
+</html>
